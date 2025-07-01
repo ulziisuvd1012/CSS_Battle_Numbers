@@ -1,0 +1,38 @@
+<div class="con">
+  <div class="s1"></div>
+  <div class="s2"></div>
+  <div class="s3"></div>
+</div>
+<style>
+  *{
+    margin:0;
+  }
+  .con{
+    width: 100wh;
+    height: 100vh;
+    background: #0B2429;
+  }
+  .s1, .s2, .s3{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 90px 0px 90px 90px;
+    background: #F3AC3C;
+  }
+  .s1{
+    top: 30px;
+    right: 80px;
+    border-radius: 90px;
+  }
+  .s2{
+    left: 140px;
+    top: 90px;
+    background: #998235;
+  }
+  .s3{
+    left: 80px;
+    top: 150px;
+  }
+</style>
+
+
