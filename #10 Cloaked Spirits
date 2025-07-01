@@ -1,0 +1,58 @@
+100%
+
+
+
+<div class="container">
+  <div class="shape1"></div>
+  <div class="shape2"></div>
+  <div class="shape3"></div>
+  <div class="shape4"></div>
+</div>
+<style>
+  *{
+    margin:0px;
+    position: absolute;
+  }
+  .container{
+    width: 100vw;
+    height: 100vh;
+    background: #222;
+  }
+  .shape1, .shape2, .shape3, .shape4{
+    height: 100px;
+    width: 30px;
+    background: #F2994A;
+  }
+  .shape1, .shape4{
+    transform: rotate(45deg);
+  }
+  .shape2, .shape3{
+    transform: rotate(-45deg);
+    height: 80px;
+  }
+  .shape1{
+    left: 155px;
+    top: 58px;
+    border-radius: 0px 0 0 10px;
+  }
+  .shape2{
+    left: 148px;
+    top: 111px;
+    border-radius: 10px 0px 5px 0px;
+    background: #F2994A;
+  }
+  .shape3{
+    left: 220px;
+    top: 110px;
+    border-radius: 5px 0px 10px 0px;
+    background: #2D9CDB;
+  }
+  .shape4{
+    left: 213px;
+    top: 142px;
+    border-radius: 0px 10px 0 0px;
+    background: #2D9CDB;
+  }
+</style>
+whitespace remove
+
