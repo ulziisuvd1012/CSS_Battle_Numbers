@@ -1,0 +1,76 @@
+<div class="con">
+  <div class="left1"></div>
+  <div class="left2"></div>
+  <div class="center1"></div>
+  <div class="center2"></div>
+  <div class="right1"></div>
+  <div class="right2"></div>
+  <div class="o1"></div>
+  <div class="o2"></div>
+</div>
+<style>
+  *{
+    margin:0;
+  }
+  .con{
+    width: 100wh;
+    height: 100vh;
+    background: #F5D6B4;
+  }
+  .left1, .center1,.right1{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border-radius:  0 0 90px 90px;
+    background: #D86F45;
+  }
+  .left1{
+    top: 150px;
+    left: 70px;
+  }
+  .center1{
+    top: 100px;
+    left: 150px;
+    border-radius: 90px 90px 0 0;
+  }
+  .right1{
+    top: 150px;
+    left: 230px;
+  }
+  .left2, .center2,.right2{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    border-radius:  0 0 90px 90px;
+    background: #F5D6B4;
+  }
+  .left2{
+    top: 150px;
+    left: 90px;
+  }
+  .center2{
+    top: 120px;
+    left: 170px;
+    border-radius: 90px 90px 0 0;
+  }
+  .right2{
+    top: 150px;
+    left: 250px;
+  }
+  .o1, .o2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 140px;
+    border-radius: 90px;
+    background: #D86F45;
+  }
+  .o1{
+    left: 70px;
+  }
+  .o2{
+    left: 310px;
+  }
+  
+</style>
+
