@@ -1,0 +1,81 @@
+<div class="con">
+  <div class="left1"></div>
+  <div class="left2"></div>
+  <div class="right1"></div>
+  <div class="right2"></div>
+  <div class="circle1"></div>
+  <div class="circle2"></div>
+  <div class="circle3"></div>
+</div>
+<style>
+  *{
+    margin:0;
+  }
+  .con{
+    width: 100wh;
+    height: 100vh;
+    background: #191210;
+  }
+  .circle1{
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    width: 140px;
+    height: 140px;
+    background: #ECA03D;
+    border-radius: 90px;
+  }
+  .circle2, .left1, .right1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 90px;
+  }
+  .left1, .right1{
+    width: 100px;
+    height: 50px;
+  }
+  .circle2{
+    top: 100px;
+    left: 150px;
+    background: #191210;
+  }
+  .circle3{
+    position: absolute;
+    top: 125px;
+    left: 175px;
+    width: 50px;
+    height: 50px;
+    background: #84271C;
+    border-radius: 90px;
+  }
+  .left2, .right2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #191210;
+    border-radius: 90px;
+  }
+  .left1{
+    top: 150px;
+    left: 50px;
+    background: #ECA03D;
+    border-radius: 0 0 90px 90px;
+  }
+   .left2{
+    top: 120px;
+    left: 70px;
+  }
+  .right1{
+    top: 100px;
+    right: 50px;
+    background: #ECA03D;
+    border-radius: 90px 90px 0 0;
+  }
+   .right2{
+    top: 120px;
+    right: 70px;
+  }
+</style>
+
+
