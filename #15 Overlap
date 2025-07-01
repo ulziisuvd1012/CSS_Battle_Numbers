@@ -1,0 +1,45 @@
+<div class="con">
+  <div class="shapea"></div>
+  <div class="shapec"></div>
+  <div class="shapeb"></div>
+</div>
+<style>
+  *{
+    margin: 0px;
+  }
+  .con{
+    width: 100vw;
+    height: 100vh;
+    background: #09042A;
+  }
+  .shapea, .shapec, .shapeb {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  }
+  .shapea, .shapec{
+    width: 150px;
+    height: 150px;
+    background: #7B3F61;
+    border-radius: 90px;
+    top: 75px;
+  }
+  .shapea{
+    left: 75px;
+  }
+  .shapec{
+    left: 175px;
+    background: #E78481;
+  }
+  .shapeb{
+    width: 80px;
+    height: 80px;
+    background: #09042A;
+    left: 160px;
+    top: 110px;
+    border-radius: 140px 0px 130px 0px;
+    transform: rotate(135deg);
+  }
+</style>
+
+
