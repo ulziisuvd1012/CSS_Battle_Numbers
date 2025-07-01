@@ -1,0 +1,22 @@
+<div class="c1"></div>
+<div class="c2"></div>
+<style>
+  *{
+    margin:0px;
+  }
+  .c1, .c2{
+    width: 600px;
+    height: 500px;
+  }
+  .c1{  
+    background: #F3AC3C;
+  }
+  .c2{
+    background: #0B2429;
+    margin-top: -550px;
+    margin-left: -6px;
+    transform: rotate(135deg)
+  }
+  ..
+</style>
+
