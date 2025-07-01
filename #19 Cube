@@ -1,0 +1,43 @@
+<div class="scene">
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+</div>
+<style>
+  *{
+    margin: 0px;
+  }
+  .scene {
+  width: 100vw;
+  height: 100vh;
+    background: #0B2429;
+  }
+  .a, .b, .c {
+    position: absolute;
+  }
+  .a{
+    width: 71px;
+    height: 70px;
+    top: 79px;
+    left: 129px;
+    background: #998235;
+    transform: skew(0deg, 135deg);
+  }
+  .b{
+    width: 70px;
+    height: 70px;
+    top:80px;
+    left: 200px;
+    background: #1A4341;
+    transform: skew(0deg, 45deg);
+  }
+  .c{
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    transform: rotate(45deg);
+    top: 134px;
+    left: 150px;
+  }
+</style>
+
