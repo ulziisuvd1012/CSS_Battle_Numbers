@@ -1,0 +1,43 @@
+<div class="body">
+    <div class="t1"></div>
+    <div class="t2"></div>
+    <div class="t3"></div>
+    <div class="t4"></div>
+</div>
+<style>
+  *{
+    margin: 0px;
+  }
+  .body{
+    width: 100vw;
+    height: 100vh;
+    background: #F2F2B6;
+  }
+  .t1, .t2, .t3, .t4 {
+    position: absolute;
+    width:0px;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 130px solid #FF6D00;
+    top: 85px;
+  }
+  .t1, .t2{
+    transform: rotate(180deg);
+  }
+  .t1{
+    left: 80px;
+    top: 85px;
+    border-bottom: 130px solid #FD4602;
+  }
+  .t2{
+    left: 60px;
+  }
+  .t3{
+    left: 190px;
+  }
+  .t4{
+    left: 170px;
+    border-bottom: 130px solid #FD4602;
+  }
+</style>
+
