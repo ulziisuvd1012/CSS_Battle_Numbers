@@ -1,58 +1,78 @@
-100%
-
-
-
-<div class="container">
-  <div class="shape1"></div>
-  <div class="shape2"></div>
-  <div class="shape3"></div>
-  <div class="shape4"></div>
+<div class="con">
+  <div class="l1"></div>
+  <div class="l2"></div>
+  <div class="l3"></div>
+  <div class="c1"></div>
+  <div class="c2"></div>
+  <div class="c3"></div>
+  <div class="r1"></div>
+  <div class="r2"></div>
+  <div class="r3"></div>
 </div>
 <style>
   *{
-    margin:0px;
-    position: absolute;
+    margin:0;
   }
-  .container{
-    width: 100vw;
+  .con{
+    width: 100wh;
     height: 100vh;
-    background: #222;
+    background: #62306D;
   }
-  .shape1, .shape2, .shape3, .shape4{
+  .l1, .c1, .r1{
+    position: absolute;
+    width: 100px;
+    height: 250px;
+    background: #F7EC7D;
+    border-radius: 90px 90px 0 0;
+  }
+  .l1{
+    left: 50px;
+    top: 150px;
+  }
+  .c1{
+    left: 150px;
+    top: 50px;
+  }
+  .r1{
+    left: 250px;
+    top: 150px;
+  }
+  .l2, .c2, .r2{
+    position: absolute;
+    width: 100px;
     height: 100px;
-    width: 30px;
-    background: #F2994A;
+    background: #AA445F;
+    border-radius: 90px;
+    top: 150px;
   }
-  .shape1, .shape4{
-    transform: rotate(45deg);
+  .l2{
+    left: 50px;
   }
-  .shape2, .shape3{
-    transform: rotate(-45deg);
-    height: 80px;
+  .c2{
+    left:150px;
+    top: 50px;
+    background: #E38F66;
   }
-  .shape1{
-    left: 155px;
-    top: 58px;
-    border-radius: 0px 0 0 10px;
+  .r2{
+    left:250px;
   }
-  .shape2{
-    left: 148px;
-    top: 111px;
-    border-radius: 10px 0px 5px 0px;
-    background: #F2994A;
+  .l3, .c3, .r3{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #E38F66;
+    border-radius: 90px;
+    top: 170px;
   }
-  .shape3{
-    left: 220px;
-    top: 110px;
-    border-radius: 5px 0px 10px 0px;
-    background: #2D9CDB;
+  .l3{
+    left: 70px;
   }
-  .shape4{
-    left: 213px;
-    top: 142px;
-    border-radius: 0px 10px 0 0px;
-    background: #2D9CDB;
+  .c3{
+    top: 70px;
+    left: 170px;
+    background: #AA445F;
+  }
+  .r3{
+    left: 270px;
   }
 </style>
-whitespace remove
-
