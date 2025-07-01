@@ -1,0 +1,71 @@
+<div class="con">
+  <div class="middle"></div>
+  <div class="left"></div>
+  <div class="right"></div>
+  <div class="up"></div>
+  <div class="down"></div>
+</div>
+<style>
+  *{
+    margin:0px;
+    position: absolute;
+  }
+  .con{
+    width: 100vw;
+    height: 100vh;
+    background: #09042A;
+  }
+  .left, .right, .up, .down{
+    width: 60px;
+    height: 60px;
+    top: 110px;
+    left: 100px;
+    border: 10px solid #E78481;
+    border-radius: 50%;
+  }
+  .middle{
+    width: 60px;
+    height: 50px;
+    left: 170px;
+    top: 125px;
+    background: #E78481;
+  }
+  .right{
+    left: 220px;
+  }
+  .up, .down{
+    left: 160px;
+    top: 57px;
+    border: 10px solid #09042A;
+    background: #F5BB9C;
+  }
+  .down{
+    left: 160px;
+    top: 163px;
+  }
+  .d1{
+    top: 10px;
+    left: 11px;
+    width: 180px;
+    height: 180px;
+    background: #0B2429;
+    border-radius: 90px;
+  }
+   .d2{
+    top: 18px;
+    left: 21px;
+    width: 140px;
+    height: 140px;
+    background: #F3AC3C;
+  border: 2px solid red;
+}
+   .d3{
+    top: 45px;
+    left: 45px;
+    width: 50px;
+    height: 50px;
+    background: #0B2429;
+    border-radius: 90px;
+  }
+</style>
+
