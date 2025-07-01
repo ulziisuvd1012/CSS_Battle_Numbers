@@ -1,0 +1,69 @@
+<div class="con">
+  <div class="sh1"></div>
+  <div class="sh2"></div>
+  <div class="sh3"></div>
+  <div class="sh4"></div>
+  <div class="body"></div>
+  <div class="end"></div>
+  <div class="top1"></div>
+  <div class="top2"></div>
+  <div class="top3"></div>
+</div>
+<style>
+  *{
+    margin:0;
+  }
+  .con{
+    width: 100wh;
+    height: 100vh;
+    background: #6592CF;
+  }
+  .body{
+    position: absolute;
+    width: 140px;
+    height: 100px;
+    left: 131px;
+    top:150px;
+    background: #060F55;
+    border-radius: 0 0 90px 90px;
+  }
+  .sh1, .sh2, .sh3, .sh4, .end, .top1, .top2, .top3{
+    position: absolute;
+    width: 20px;
+    height: 140px;
+    border-radius: 90px;
+    top:50px;
+    background: #060F55;
+  }
+  .top1, .top2, .top3{
+    background: #6592CF;
+    top: 20px;
+  }
+  .top1{
+    left: 151px;
+  }
+  .top2{
+    left: 191px;
+  }
+  .top3{
+    left: 231px;
+  }
+  .end{
+    left:191px;
+    top: 200px;
+  }
+  .sh1{
+    left: 131px;
+  }
+  .sh2{
+    left: 171px;
+  }
+  .sh3{
+    left: 211px;
+  }
+  .sh4{
+    left: 251px;
+  }
+</style>
+
+
